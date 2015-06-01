@@ -1,0 +1,7 @@
+files:
+  - name: stuff.stl
+    url: /files/cad/stuff.stl
+repositories:
+  - name: autodesk
+    url: https://sketchfab.com/models/c0541f8dbd3d42829205516bf6a71f29
+    comment: "this is the first file"

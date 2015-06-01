@@ -1,0 +1,8 @@
+files:
+  - name: Fritzing
+    url: /files/schematics/fritzing.png
+    comment: "hi the other comment"
+repositories:
+  - name: Schematics
+    url: https://upverter.com/honnet/69441ea47f5d22da/twi
+    comment: "Awesomeeee"

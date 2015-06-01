@@ -1,0 +1,9 @@
+name:
+slug: ben
+members:
+  - url: https://www.hackster.io/hackers/1
+    mini_resume: "I did it all"
+credits:
+  - for: board
+    to: paul
+    link: http://eeee.com

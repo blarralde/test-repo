@@ -1,0 +1,5 @@
+- comment: to power the thing
+  url: http://hackster.io/parts/6597
+  quantity: 1
+- name: 1K resistor
+  quantity: 1

@@ -1,0 +1,10 @@
+name: "blinky light"
+tags: "one, two, three"
+one_liner: "this is my project"
+cover_image: /files/story/teensy31.jpg
+license: 'https://tldrlegal.com/license/beerware-license'
+difficulty: "beginner"
+slug: "blinky-light"
+wip: false
+# published: true
+disallowed_attributes: false

@@ -1,0 +1,9 @@
+files:
+  - name: sketch.ino
+    url: /files/code/sketch.ino
+    language: c
+    comment: "hi the comment"
+repositories:
+  - name: github
+    url: http://github.com/blarralde/tupidovelo
+    comment: "this is the first file"
