@@ -35,7 +35,7 @@ check this video:
 
 http://vimeo.com/22439234
 
-Picture:
+Pictures:
 
 <!--![the caption](https://hackster.imgix.net/uploads/image/file/41981/Ubidots_test_setup.jpg?w=1280&h=960&fit=clip&s=dc0053641464672cfcee0745d325474d)-->
 
