@@ -1,5 +1,34 @@
 update!
 
+```
+class GithubTranslator
+  attr_reader :project
+
+  def initialize project, navigator
+    @navigator = navigator
+    @project = project
+  end
+
+  def readme_to_story! readme
+    content = readme.force_encoding('UTF-8')
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::ProjectRenderer, Redcarpet::PROJECT_MARKDOWN_FILTERS)
+    html = markdown.render(content)
+
+    doc = Nokogiri::HTML::DocumentFragment.parse html
+
+    project.widgets.where(type: 'ImageWidget').destroy_all
+
+    doc.css('img').reverse.each do |img|
+      if next_sibling = img.next_sibling and next_sibling.name == 'br'
+        next_sibling.remove
+      end
+      if img.parent and img.parent.name.in? %w(p ul ol li span)
+        img.parent.after img
+      end
+    end
+  end
+```
+
 # how it came about
 
 check this video:
